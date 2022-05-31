@@ -50,9 +50,9 @@ import numpy as np
 
 
 dict = {'a': [1,8,3],'b': [4,5,6],'c': [7,8,9]}
-d_frame = pd.DataFrame(dict)
-print(d_frame.query('a == c'))
+# d_frame = pd.DataFrame(dict)
+# print(d_frame.query('a == c'))
 
-
-print(pd.Series(dict), Index=[22,33,55])
+d_series = pd.Series(dict)
+print(d_series[-1])
 
